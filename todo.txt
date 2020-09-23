@@ -1,0 +1,7 @@
+#1 Criar componentes
+
+advantages
+functions
+covid-alert
+contact-us
+home-footer

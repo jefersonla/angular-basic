@@ -1,0 +1,52 @@
+.link-covid {
+  height: 40px;
+  background-color: var(--primary-color-regular);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.linha-navbar {
+  background: #e6f3f7;
+  display: flex;
+  flex-direction: row;
+
+  .logo {
+    padding: 28px;
+  }
+
+  .espacador {
+    flex-grow: 1;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 15px;
+
+    li {
+      padding: 30px 15px;
+
+      a {
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        line-height: 1.22;
+        text-align: right;
+        color: var(--gray900);
+        text-decoration: none;
+      }
+    }
+  }
+}
