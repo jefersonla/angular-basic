@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
-  template: `<div>Hello {{value}}</div>`,
+  templateUrl: 'app.component.html',
 })
 export class AppComponent {
-  value = 'World';
+  value = 'SISTEMA ' + environment.nome_sistema;
 }
